@@ -1,0 +1,5 @@
+rootProject.name = 'grokaem'
+
+include 'tests'
+include 'ch1'
+

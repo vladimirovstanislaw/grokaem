@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow'
+}
+
+group 'grokaem'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation('org.junit.jupiter:junit-jupiter-api')
+    testImplementation('org.junit.jupiter:junit-jupiter-engine')
+    testImplementation('org.junit.jupiter:junit-jupiter-params')//
+    testImplementation('org.assertj:assertj-core')
+    testImplementation('org.mockito:mockito-core')
+    testImplementation('org.mockito:mockito-junit-jupiter')
+    
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    testImplementation('com.amazonaws:aws-java-sdk')
+
+    testImplementation('com.fasterxml.jackson.dataformat:jackson-dataformat-xml')
+    implementation('com.fasterxml.jackson.dataformat:jackson-dataformat-xml')
+    testImplementation('org.apache.poi:poi')
+    testImplementation('org.apache.poi:poi-ooxml')
+
+}
+test {
+    useJUnitPlatform()
+}
+tasks.build.dependsOn tasks.shadowJar
