@@ -3,4 +3,5 @@ rootProject.name = 'grokaem'
 include 'tests'
 include 'ch1'
 include 'JokerConf'
+include 'OCA'
 
