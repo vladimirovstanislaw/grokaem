@@ -18,7 +18,7 @@ dependencies {
     testImplementation('org.assertj:assertj-core')
     testImplementation('org.mockito:mockito-core')
     testImplementation('org.mockito:mockito-junit-jupiter')
-    
+
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
@@ -28,7 +28,7 @@ dependencies {
     implementation('com.fasterxml.jackson.dataformat:jackson-dataformat-xml')
     testImplementation('org.apache.poi:poi')
     testImplementation('org.apache.poi:poi-ooxml')
-
+    implementation("org.asynchttpclient:async-http-client");
 }
 test {
     useJUnitPlatform()
