@@ -4,4 +4,6 @@ include 'tests'
 include 'ch1'
 include 'JokerConf'
 include 'OCA'
+include 'StreamAPI'
+include 'ch4'
 

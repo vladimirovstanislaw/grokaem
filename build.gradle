@@ -59,6 +59,8 @@ allprojects {
             dependency("org.apache.poi:poi:${Versions.orgApachePoi}");
             // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
             dependency("org.apache.poi:poi-ooxml:${Versions.orgApachePoi}");
+            // https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client
+            dependency("org.asynchttpclient:async-http-client:${Versions.asynchttpclient}");
 
 
         }

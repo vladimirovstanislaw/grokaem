@@ -32,4 +32,5 @@ public interface Versions {
     String jacksonXmlFormat="2.13.3";
     String amazonSdkVersion="1.11.22";
     String orgApachePoi = "5.2.5";
+    String asynchttpclient = "3.0.0";
 }
