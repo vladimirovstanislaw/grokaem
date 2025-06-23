@@ -6,4 +6,5 @@ include 'JokerConf'
 include 'OCA'
 include 'StreamAPI'
 include 'ch4'
+include 'merch'
 
